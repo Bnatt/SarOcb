@@ -1,0 +1,49 @@
+2015-08-10 22:41:07,023  INFO {main} - org.springframework.context.support.AbstractApplicationContextprepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1333739: startup date [Mon Aug 10 22:41:07 EDT 2015]; root of context hierarchy
+2015-08-10 22:41:07,117  INFO {main} - org.springframework.beans.factory.xml.XmlBeanDefinitionReaderloadBeanDefinitions - Loading XML bean definitions from class path resource [spring.xml]
+2015-08-10 22:41:07,913  INFO {main} - org.springframework.core.io.support.PropertiesLoaderSupportloadProperties - Loading properties file from class path resource [placeholder.properties]
+2015-08-10 22:41:07,913  INFO {main} - org.springframework.core.io.support.PropertiesLoaderSupportloadProperties - Loading properties file from class path resource [storeManagerMailIds.properties]
+2015-08-10 22:41:08,413  INFO {main} - org.hibernate.annotations.common.reflection.java.JavaReflectionManager<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-08-10 22:41:08,428  INFO {main} - org.hibernate.VersionlogVersion - HHH000412: Hibernate Core {4.3.9.Final}
+2015-08-10 22:41:08,444  INFO {main} - org.hibernate.cfg.Environment<clinit> - HHH000206: hibernate.properties not found
+2015-08-10 22:41:08,444  INFO {main} - org.hibernate.cfg.EnvironmentbuildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+2015-08-10 22:41:09,380  INFO {main} - org.hibernate.dialect.Dialect<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-08-10 22:41:09,677  INFO {main} - org.hibernate.engine.transaction.internal.TransactionFactoryInitiatorinitiateService - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-10 22:41:09,677  INFO {main} - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory<init> - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-10 22:41:10,241  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000228: Running hbm2ddl schema update
+2015-08-10 22:41:10,241  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000102: Fetching database metadata
+2015-08-10 22:41:10,241  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000396: Updating schema
+2015-08-10 22:41:10,335  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.po_number
+2015-08-10 22:41:10,335  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [last_po_num]
+2015-08-10 22:41:10,335  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-10 22:41:10,335  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-10 22:41:10,366  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sku
+2015-08-10 22:41:10,366  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, sku_desc, spcl_market, sku_type, sku_details]
+2015-08-10 22:41:10,366  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-10 22:41:10,366  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [sku_number_unique, primary]
+2015-08-10 22:41:10,459  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sar_parm
+2015-08-10 22:41:10,475  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_market, sku_number, pack_size, sku_rcmd_thrd, vendr_min, trk_dlvr_factor]
+2015-08-10 22:41:10,475  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-10 22:41:10,475  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-10 22:41:10,523  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sar_po
+2015-08-10 22:41:10,523  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, po_number, ordr_qty, str_number, is_approved, order_qty]
+2015-08-10 22:41:10,523  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-10 22:41:10,523  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-10 22:41:10,585  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sku_store
+2015-08-10 22:41:10,585  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, shelf_qty, store_num, in_str_qty, sku_velocity, trk_dlvr_time_days]
+2015-08-10 22:41:10,585  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-10 22:41:10,585  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-10 22:41:10,585  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000232: Schema update complete
+2015-08-10 22:41:10,741  INFO {main} - org.springframework.orm.hibernate4.HibernateTransactionManagerafterPropertiesSet - Using DataSource [org.apache.commons.dbcp2.BasicDataSource@1c79f09] of Hibernate SessionFactory for HibernateTransactionManager
+2015-08-10 22:41:11,405  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplgetSkuForStore - Sku list for the store successfully pulled from database.
+2015-08-10 22:41:11,422  INFO {main} - org.smartbuy.sar.OCB.OcbMainmain - skuStoreList generated
+2015-08-10 22:41:11,531  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplgeneratePurchaseOrderNumber - New PO number generated successfully.
+2015-08-10 22:41:11,565  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,587  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,590  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,596  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,609  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,613  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,616  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:11,619  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplcalculateFinalOrderQuantity - Final order quantity calculated successfully.
+2015-08-10 22:41:14,653  INFO {main} - org.smartbuy.sar.OCB.OcbMainmain - Mail sent to store manager
+2015-08-10 22:41:14,653  INFO {main} - org.springframework.context.support.AbstractApplicationContextdoClose - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1333739: startup date [Mon Aug 10 22:41:07 EDT 2015]; root of context hierarchy

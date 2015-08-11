@@ -1,0 +1,79 @@
+2015-08-02 00:30:28,819  INFO {main} - org.springframework.context.support.AbstractApplicationContextprepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1333739: startup date [Sun Aug 02 00:30:28 EDT 2015]; root of context hierarchy
+2015-08-02 00:30:28,929  INFO {main} - org.springframework.beans.factory.xml.XmlBeanDefinitionReaderloadBeanDefinitions - Loading XML bean definitions from class path resource [spring.xml]
+2015-08-02 00:30:31,051  INFO {main} - org.hibernate.annotations.common.reflection.java.JavaReflectionManager<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-08-02 00:30:31,098  INFO {main} - org.hibernate.VersionlogVersion - HHH000412: Hibernate Core {4.3.9.Final}
+2015-08-02 00:30:31,113  INFO {main} - org.hibernate.cfg.Environment<clinit> - HHH000206: hibernate.properties not found
+2015-08-02 00:30:31,130  INFO {main} - org.hibernate.cfg.EnvironmentbuildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+2015-08-02 00:30:36,950  INFO {main} - org.hibernate.dialect.Dialect<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-08-02 00:30:37,544  INFO {main} - org.hibernate.engine.transaction.internal.TransactionFactoryInitiatorinitiateService - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-02 00:30:37,575  INFO {main} - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory<init> - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-02 00:30:38,589  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000228: Running hbm2ddl schema update
+2015-08-02 00:30:38,589  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000102: Fetching database metadata
+2015-08-02 00:30:38,589  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000396: Updating schema
+2015-08-02 00:30:39,635  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.po_num
+2015-08-02 00:30:39,635  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [last_po_num]
+2015-08-02 00:30:39,635  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:30:39,635  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:30:40,058  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sku
+2015-08-02 00:30:40,058  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, sku_desc, spcl_market, sku_type, sku_details]
+2015-08-02 00:30:40,058  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:30:40,058  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [sku_number_unique, primary]
+2015-08-02 00:30:40,261  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sar_parm
+2015-08-02 00:30:40,261  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_market, sku_number, pack_size, sku_rcmd_thrd, vendr_min, trk_dlvr_factor]
+2015-08-02 00:30:40,261  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:30:40,261  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:30:40,386  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sar_po
+2015-08-02 00:30:40,386  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, po_number, ordr_qty, str_number, is_approved, order_qty]
+2015-08-02 00:30:40,386  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:30:40,386  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:30:40,495  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sku_store
+2015-08-02 00:30:40,511  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, shelf_qty, store_num, in_str_qty, sku_velocity, trk_dlvr_time_days]
+2015-08-02 00:30:40,511  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:30:40,511  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:30:40,511  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000232: Schema update complete
+2015-08-02 00:30:40,901  INFO {main} - org.springframework.orm.hibernate4.HibernateTransactionManagerafterPropertiesSet - Using DataSource [org.apache.commons.dbcp2.BasicDataSource@f9d87b] of Hibernate SessionFactory for HibernateTransactionManager
+2015-08-02 00:30:42,056  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplgetSkuForStore - Sku list for the store successfully pulled from database.
+2015-08-02 00:30:42,087  INFO {main} - org.smartbuy.sar.OCB.OcbMainmain - skuStoreList generated
+2015-08-02 00:30:42,447  WARN {main} - org.hibernate.engine.jdbc.spi.SqlExceptionHelperlogExceptions - SQL Error: 1062, SQLState: 23000
+2015-08-02 00:30:42,447 ERROR {main} - org.hibernate.engine.jdbc.spi.SqlExceptionHelperlogExceptions - Duplicate entry '28132400-10289121-2894' for key 'PRIMARY'
+2015-08-02 00:30:42,447  INFO {main} - org.hibernate.engine.jdbc.batch.internal.AbstractBatchImplrelease - HHH000010: On release of batch it still contained JDBC statements
+2015-08-02 00:30:42,447  WARN {main} - org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandlerlogWarning - SQL Warning Code: 1062, SQLState: 23000
+2015-08-02 00:30:42,447  WARN {main} - org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandlerlogWarning - Duplicate entry '28132400-10289121-2894' for key 'PRIMARY'
+2015-08-02 00:33:17,652  INFO {main} - org.springframework.context.support.AbstractApplicationContextprepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1333739: startup date [Sun Aug 02 00:33:17 EDT 2015]; root of context hierarchy
+2015-08-02 00:33:17,762  INFO {main} - org.springframework.beans.factory.xml.XmlBeanDefinitionReaderloadBeanDefinitions - Loading XML bean definitions from class path resource [spring.xml]
+2015-08-02 00:33:19,073  INFO {main} - org.hibernate.annotations.common.reflection.java.JavaReflectionManager<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-08-02 00:33:19,105  INFO {main} - org.hibernate.VersionlogVersion - HHH000412: Hibernate Core {4.3.9.Final}
+2015-08-02 00:33:19,121  INFO {main} - org.hibernate.cfg.Environment<clinit> - HHH000206: hibernate.properties not found
+2015-08-02 00:33:19,136  INFO {main} - org.hibernate.cfg.EnvironmentbuildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+2015-08-02 00:33:20,400  INFO {main} - org.hibernate.dialect.Dialect<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2015-08-02 00:33:20,791  INFO {main} - org.hibernate.engine.transaction.internal.TransactionFactoryInitiatorinitiateService - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-02 00:33:20,822  INFO {main} - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory<init> - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-02 00:33:21,680  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000228: Running hbm2ddl schema update
+2015-08-02 00:33:21,680  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000102: Fetching database metadata
+2015-08-02 00:33:21,696  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000396: Updating schema
+2015-08-02 00:33:21,759  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.po_num
+2015-08-02 00:33:21,759  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [last_po_num]
+2015-08-02 00:33:21,759  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:33:21,759  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:33:21,821  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sku
+2015-08-02 00:33:21,821  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, sku_desc, spcl_market, sku_type, sku_details]
+2015-08-02 00:33:21,821  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:33:21,821  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [sku_number_unique, primary]
+2015-08-02 00:33:21,868  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sar_parm
+2015-08-02 00:33:21,868  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_market, sku_number, pack_size, sku_rcmd_thrd, vendr_min, trk_dlvr_factor]
+2015-08-02 00:33:21,868  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:33:21,868  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:33:21,946  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sar_po
+2015-08-02 00:33:21,946  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, po_number, ordr_qty, str_number, is_approved, order_qty]
+2015-08-02 00:33:21,946  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:33:21,946  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:33:21,977  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000261: Table found: new_temp.sku_store
+2015-08-02 00:33:21,977  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000037: Columns: [sku_number, shelf_qty, store_num, in_str_qty, sku_velocity, trk_dlvr_time_days]
+2015-08-02 00:33:21,977  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000108: Foreign keys: []
+2015-08-02 00:33:21,977  INFO {main} - org.hibernate.tool.hbm2ddl.TableMetadata<init> - HHH000126: Indexes: [primary]
+2015-08-02 00:33:21,977  INFO {main} - org.hibernate.tool.hbm2ddl.SchemaUpdateexecute - HHH000232: Schema update complete
+2015-08-02 00:33:22,118  INFO {main} - org.springframework.orm.hibernate4.HibernateTransactionManagerafterPropertiesSet - Using DataSource [org.apache.commons.dbcp2.BasicDataSource@f9d87b] of Hibernate SessionFactory for HibernateTransactionManager
+2015-08-02 00:33:22,757  INFO {main} - org.smartbuy.sar.dao.SkuServiceImplgetSkuForStore - Sku list for the store successfully pulled from database.
+2015-08-02 00:33:22,773  INFO {main} - org.smartbuy.sar.OCB.OcbMainmain - skuStoreList generated
+2015-08-02 00:33:27,345  INFO {main} - org.smartbuy.sar.OCB.OcbMainmain - Mail sennt to store manager
+2015-08-02 00:33:27,345  INFO {main} - org.springframework.context.support.AbstractApplicationContextdoClose - Closing org.springframework.context.support.ClassPathXmlApplicationContext@1333739: startup date [Sun Aug 02 00:33:17 EDT 2015]; root of context hierarchy
